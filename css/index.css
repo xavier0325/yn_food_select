@@ -1,0 +1,115 @@
+body{
+	background: #eee;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+#eat{
+	margin-top: 100px;
+}
+.content{
+	display: none;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+.content h2{
+	font-weight: 300;	
+}
+.content b{
+	padding: 20px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1c4fd), to(#276ace));/* #a1c4fd,#c2e9fb */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	word-wrap: normal;
+	white-space: nowrap;
+	word-break: keep-all;
+	max-width: 100%;
+}
+.content img{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.modal-dialog{
+	max-height: 90%;
+	overflow-y: scroll;
+}
+#myModal .modal-body{
+	max-height: 450px;
+	overflow-y: scroll;
+}
+.img-food{
+	display: inline-block;
+}
+table{
+	margin-top: 20px;
+}
+table tr,th{
+	text-align: center;
+}
+table a{
+	text-decoration: none;
+	padding: 0 5px;
+	cursor: pointer;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+}
+#details{
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 90%;
+	/* min-height: 300px; */
+	transform: translate(-50%,-50%);
+	background: #ffff;
+	/* border: 1px solid #fff; */
+	box-shadow: 0 0 10px #fff;
+	border-radius: 15px;
+	z-index: 9999;
+}
+#details-title{
+	text-align: center;
+	border-bottom: 1px solid aqua;
+}
+#details-body .pannel{
+	padding: 0!important;
+	margin-bottom: 0!important;
+}
+#details-body .pannel-body{
+	min-height: 400px!important;
+}
+#details-content{
+	min-height: 100px;
+}
+#details-footer{
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #000;
+	position: absolute;
+	bottom: 5px;
+}
+.navbar-fixed-bottom .container-fluid{
+	padding: 0!important;
+	margin: 0!important;
+}
+.navbar-fixed-bottom .container-fluid div{
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	border-right: 0.5px solid aqua;
+}
+.navbar-fixed-bottom .container-fluid div:nth-last-child{
+	border-right:none;
+}
+.navbar-fixed-bottom .container-fluid div:active{
+	background: lightskyblue;
+	cursor: pointer;
+	
+}
+.navbar-fixed-bottom .container-fluid div.active{
+	background: aqua;
+}
